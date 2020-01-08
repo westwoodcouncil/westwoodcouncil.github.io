@@ -1,323 +1,261 @@
-<!doctype html>
-<html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>North Westwood Neighborhood Council</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="generator" content="Gatsby 2.18.6"/><title data-react-helmet="true">North Westwood Neighborhood Council</title><meta data-react-helmet="true" name="description" content="An LA Neighborhood Council to benefit North Westwood residents including Westwood Village and UCLA."/><link as="script" rel="preload" href="/webpack-runtime-cc06085b83e1effe2ec3.js"/><link as="script" rel="preload" href="/app-0c6237805d3e8725f20a.js"/><link as="script" rel="preload" href="/commons-7951108db548016ef14d.js"/><link as="script" rel="preload" href="/component---src-pages-index-js-320a2a5fc988f541303a.js"/><link as="fetch" rel="preload" href="/page-data/index/page-data.json" crossorigin="anonymous"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><style data-emotion-css="13zkf2z">.css-13zkf2z{background-position:top 20% center;background-size:cover;height:50vh;}.css-13zkf2z + *{margin-top:0rem;}</style><section class="css-13zkf2z e1jr77sv0 gatsby-image-wrapper" style="position:relative;opacity:0.99;background-position:center;background-repeat:no-repeat;background-size:cover"><style>
+          .css-13zkf2z.e1jr77sv0:before,
+          .css-13zkf2z.e1jr77sv0:after {
+            content: '';
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            
+            transition: opacity 0.5s ease 0.25s;
+            background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
-        <link rel="stylesheet" href="css/normalize.min.css" />
-        <link rel="stylesheet" href="css/main.css" />
+          }
+          .css-13zkf2z.e1jr77sv0:before {
+            z-index: -100;
+            
+            background-image: url(data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAgP/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHG6aFbicH/xAAaEAADAAMBAAAAAAAAAAAAAAAAAQMEEBET/9oACAEBAAEFAk5npJDyJnd//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECERL/2gAIAQMBAT8BUqNH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aax//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAExICH/2gAIAQEABj8CpTibx//EABsQAAIBBQAAAAAAAAAAAAAAAAABETFBYZHx/9oACAEBAAE/IeIX2qE3GWoN2SSf/9oADAMBAAIAAwAAABAH7//EABgRAAIDAAAAAAAAAAAAAAAAAAABEUFR/9oACAEDAQE/EKiJ4f/EABcRAQADAAAAAAAAAAAAAAAAAAAhQXH/2gAIAQIBAT8QlbT/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVFxof/aAAgBAQABPxCppfFDUtmarKEbtXxAteYOpaf/2Q==);
+            opacity: 0; 
+          }
+          .css-13zkf2z.e1jr77sv0:after {
+            z-index: -101;
+            background-image: url(data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAgP/xAAUAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHG6aFbicH/xAAaEAADAAMBAAAAAAAAAAAAAAAAAQMEEBET/9oACAEBAAEFAk5npJDyJnd//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAECERL/2gAIAQMBAT8BUqNH/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/Aax//8QAGBAAAwEBAAAAAAAAAAAAAAAAAAExICH/2gAIAQEABj8CpTibx//EABsQAAIBBQAAAAAAAAAAAAAAAAABETFBYZHx/9oACAEBAAE/IeIX2qE3GWoN2SSf/9oADAMBAAIAAwAAABAH7//EABgRAAIDAAAAAAAAAAAAAAAAAAABEUFR/9oACAEDAQE/EKiJ4f/EABcRAQADAAAAAAAAAAAAAAAAAAAhQXH/2gAIAQIBAT8QlbT/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMVFxof/aAAgBAQABPxCppfFDUtmarKEbtXxAteYOpaf/2Q==);
+            
+            
+          }
+        </style><noscript><style>
+    .css-13zkf2z.e1jr77sv0:before {
+      opacity: 1;
+      background-image: url('/static/f8a60d5e0cdd5ad3cedcbd05ab9fae79/b17c1/roberto-nickson-skyline.jpg');
+    }</style></noscript><style data-emotion-css="1ekpcug">.css-1ekpcug{background-image:linear-gradient(to top,#ddbbffdd 2rem,#ddbbff00);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:100%;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;padding:0 calc((100vw - 650px) / 2) 2rem;width:100%;}.css-1ekpcug h1{text-shadow:1px 1px 3px #eeddff66;font-size:2.25rem;margin-left:1rem;font-family:Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;}.css-1ekpcug P,.css-1ekpcug a{color:#222;margin-top:0;}.css-1ekpcug a{margin-top:0.5rem;}</style><div class="css-1ekpcug e1jr77sv1"><style data-emotion-css="1uanfen">.css-1uanfen{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-bottom:1rem;}</style><div class="css-1uanfen"><style data-emotion-css="s0k0kz">.css-s0k0kz{width:120px;}.css-s0k0kz *{margin-top:0;}</style><div class="css-s0k0kz gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFM0lEQVQ4y02Ua0wUVxTHhw/tB0z6selXTRoRFpvaSjRpTUlbCqiBim3jI+UhVXntsiu7qdHaV9QAauX9rAoVERaWXVxw8cFDZOW1bAf2OQuzLCAgWrG6YtMZ7r93ByG9ycncmZzzu/9zz5nDqNvGmcBK0jqYquG5oMD+zV/uBad1TiSqurw6ZZfXp77JC2qTV1B2e33KTl6Xdmc8MbnRHRzwVbV5glRGj8Q41rbyZBIbHUHM65Xa7NqX3zvN62f+QS77FErzDDLKLMi6wkL1YAanhh/j/OgzHDfx3kyDZ/9qnOIGF7SmbHVp2scLmtwvYeCe4+zAtKC66RE0PVPLB5MMJFnRQdS9U0Rl8gineieFgoEF5JqfQNHKFa7GK29QhVUDDyVyTtt4gZ4XUGOZF7Ob3WKWkSOqFo5obvLk69315OC3eqK5PUlUeo5kt3JQ6zgx796UUDDyHFSdBD1mfK3ykNaxT+vyo3poVkz7w76sueSA6gYFtnJEqXdjd0QF9kTV4JhpAkpD4CA3UVfboax3Luf2+ISz9xeQ3uJaSf8NjSn4XPck3+r+G4oGh6iuGENOtY2qcENl4JCaex/RoYXY+X4pjpYNQUnVZetcyKkcIznUV9noFM/1zeL7Ns77VY11HXO0yZ6Yb17AKXpf8gqWqMpYoqxg6d24INfaEffpZcRQYPTGAiQk1CNwkKLJAWU5LRL1VVSy5LiRE870ziND50hiclpdugv9C8i6NiYoSqxEUWol8jIr5AYXsq7bEBf5+wowhALj6yDXOyGnQOoHybd4BMrrdjHv/hwULU4Tc9Lo9uV1+ZBRbV2WFw0TeYkFCtomilYn0utY7N5eiZiwIgkYH12DzGY7VUiN+gV8AzE0lpy+zUOtd/qZH4xu4VeTB2nlwySrcIgcuTiA5Av9OKyzI6PWil0flCFGRoGbChEfeQmZ2jGk1o8i+Xw/jhYMIhCTXm7BCaOb5LQ4wcibbEI2DU4tGSQp+WZyosKCOr0LFnYOtgdTiNtSKgGjqMKDn1yC1/YI5sEZXKZpq0uHkJTXR74rGYS82UYym2xgjjSwvkP08k9fZUm/aZy8si0A3F+A9xnsOgdiw4sl+4KmnbC1HI96JgF+UfJ5ZXuM7nYPOVlrJSkNo0hrGPUz6sZRXVfvLMDOCXA/JsQyS5aHHuJl3xRSaIU/o8p2bi6WLPLdi9DsvQ5Y57Fk9mGhkyP4cx7i8Kxo6JyCvIHtYF7c5RPBLmLpil14pDHj31sTBOYpPGvnEE97L6AsoHAntQD8UORlPO/gUPRTPWL2/EiqzjSTpdseAZanmL0zkcQg3xJMunjv4uE+2N+uE/20v0BTn69hEUeB0f8HbipA4kfVeEILk57yG1m/PQ3bPleL7tphGjPhhZY2dmChh9//8nA/nOsbhKVS6/JiWg/YxA4St62cRIcWrd1jFO3HbyLKyYvaUTJa3I3TGZXLdT9rBRh9IFrnAQk28tY16YeeiGgpXAgzgf/YIExH6EVzXCvZtZUqDC0iFCYZTZ8kbCnDE9piaHCKD6seCD5lL/zyXmk4OEJ0Qcx0bNva+OJCmwqnQ4yYDTGgPfyaEB1eJMbKJOBqpcmXW0pFT/Zdwb+3C764W7giK10bX/wOw8pmOrZ9bcDaZdr906HN3nZZM2I2V6ykK1tRGCMrRvx7leiX6cFvaPSOvHP1wGoc+6E2aFXV2tMduvIRG2+tqwqrSYoJLzLRpvavKqTv/l2y4o6WsLokRHdLBUCUJahnQ43EcG/UMv8BGG7S2dBwKMkAAAAASUVORK5CYII=" alt="North Westwood Neighborhood Council" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/6818f69be192d6765783e49c00aa0b2e/e711a/nwwnc-2019-logo-hi-res-cyan.webp 30w,
+/static/6818f69be192d6765783e49c00aa0b2e/ca41d/nwwnc-2019-logo-hi-res-cyan.webp 60w,
+/static/6818f69be192d6765783e49c00aa0b2e/f0218/nwwnc-2019-logo-hi-res-cyan.webp 120w,
+/static/6818f69be192d6765783e49c00aa0b2e/88812/nwwnc-2019-logo-hi-res-cyan.webp 180w,
+/static/6818f69be192d6765783e49c00aa0b2e/331a6/nwwnc-2019-logo-hi-res-cyan.webp 240w,
+/static/6818f69be192d6765783e49c00aa0b2e/e81f8/nwwnc-2019-logo-hi-res-cyan.webp 3936w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/6818f69be192d6765783e49c00aa0b2e/97b5c/nwwnc-2019-logo-hi-res-cyan.png 30w,
+/static/6818f69be192d6765783e49c00aa0b2e/01680/nwwnc-2019-logo-hi-res-cyan.png 60w,
+/static/6818f69be192d6765783e49c00aa0b2e/7cbc2/nwwnc-2019-logo-hi-res-cyan.png 120w,
+/static/6818f69be192d6765783e49c00aa0b2e/0c8ef/nwwnc-2019-logo-hi-res-cyan.png 180w,
+/static/6818f69be192d6765783e49c00aa0b2e/74ab8/nwwnc-2019-logo-hi-res-cyan.png 240w,
+/static/6818f69be192d6765783e49c00aa0b2e/5927a/nwwnc-2019-logo-hi-res-cyan.png 3936w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/6818f69be192d6765783e49c00aa0b2e/97b5c/nwwnc-2019-logo-hi-res-cyan.png 30w,
+/static/6818f69be192d6765783e49c00aa0b2e/01680/nwwnc-2019-logo-hi-res-cyan.png 60w,
+/static/6818f69be192d6765783e49c00aa0b2e/7cbc2/nwwnc-2019-logo-hi-res-cyan.png 120w,
+/static/6818f69be192d6765783e49c00aa0b2e/0c8ef/nwwnc-2019-logo-hi-res-cyan.png 180w,
+/static/6818f69be192d6765783e49c00aa0b2e/74ab8/nwwnc-2019-logo-hi-res-cyan.png 240w,
+/static/6818f69be192d6765783e49c00aa0b2e/5927a/nwwnc-2019-logo-hi-res-cyan.png 3936w" src="/static/6818f69be192d6765783e49c00aa0b2e/7cbc2/nwwnc-2019-logo-hi-res-cyan.png" alt="North Westwood Neighborhood Council" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><h1>NWWNC</h1></div><p>The North Westwood Neighborhood Council serves its residents, Westwood Village and UCLA. <a href="/meetings">Find a Meeting →</a></p></div></section><style data-emotion-css="13cnf0e">*{box-sizing:border-box;margin:0;}* + *{margin-top:1rem;}html,body{margin:0;color:#555;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-size:18px;line-height:1.4;}html > div,body > div{margin-top:0;}html h1,body h1,html h2,body h2,html h3,body h3,html h4,body h4,html h5,body h5,html h6,body h6{color:#222;line-height:1.1;}html h1 + *,body h1 + *,html h2 + *,body h2 + *,html h3 + *,body h3 + *,html h4 + *,body h4 + *,html h5 + *,body h5 + *,html h6 + *,body h6 + *{margin-top:0.5rem;}html strong,body strong{color:#222;}html li,body li{margin-top:0.25rem;}</style><style data-emotion-css="1il2j81">.css-1il2j81{background:#eee;border-bottom:1px solid #ddd;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;padding:0.5rem calc((100vw - 650px - 0.5rem) / 2);}</style><header class="css-1il2j81"><style data-emotion-css="1t76biv">.css-1t76biv{color:#222;font-size:1rem;font-weight:bold;line-height:1;margin:0 0.5rem 0 0;padding:0.25rem;-webkit-text-decoration:none;text-decoration:none;}.css-1t76biv.current-page{border-bottom:2px solid #222;}.css-1t76biv:last-of-type{margin-right:0;}</style><a aria-current="page" font-weight="bold" class="css-1t76biv e1od4gme0" href="/">North Westwood NC</a><style data-emotion-css="8kn4zf">.css-8kn4zf{margin-top:0;}</style><nav class="css-8kn4zf"><style data-emotion-css="s3n0mh">.css-s3n0mh{color:#222;font-size:1rem;font-weight:normal;line-height:1;margin:0 0.5rem 0 0;padding:0.25rem;-webkit-text-decoration:none;text-decoration:none;}.css-s3n0mh.current-page{border-bottom:2px solid #222;}.css-s3n0mh:last-of-type{margin-right:0;}</style><a aria-current="page" class="css-s3n0mh e1od4gme0 current-page" href="/">Home</a><a class="css-s3n0mh e1od4gme0" href="/meetings">Meetings</a><a class="css-s3n0mh e1od4gme0" href="/minutes">Minutes</a><a class="css-s3n0mh e1od4gme0" href="/upcoming">Upcoming</a></nav></header><style data-emotion-css="a34uwo">.css-a34uwo{margin:2rem auto 4rem;max-width:90vw;width:650px;}</style><main class="css-a34uwo"><h2>Latest Meetings</h2><h3>North Westwood Neighborhood Council General Board Meeting</h3><p>January 8, 2020 from 7:00 to 10:00pm
+Weyburn Commons Village View Room
+4th Floor, 11020 Weyburn Dr.
+Los Angeles CA 90024</p><p><a href="/docs/01.08.20-NWWNC-General-Board-Meeting.pdf">Meeting Agenda (PDF)</a></p><h3>Special Meeting of the North Westwood Neighborhood Council Community Activities and Projects Special Committee Meeting</h3><p>January 7, 2019, 6:30pm to 7:30pm
+Corner Bakery Cafe
+1019 S. Westwood Blvd
+Los Angeles, CA 90024</p><p><a href="/docs/2020-01-07-nwwnc-cap-committee-meeting.pdf">Meeting Agenda (PDF)</a></p><hr/><a href="/meetings">Find a Meeting →</a><style data-emotion-css="qtrwob">.css-qtrwob{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;margin:1rem -0.5rem;}</style><div class="css-qtrwob"><style data-emotion-css="1nlal54">.css-1nlal54{box-shadow:0;display:block;margin:0.5rem;max-width:calc(33% - 1rem);width:120px;-webkit-transition:200ms box-shadow linear;transition:200ms box-shadow linear;}.css-1nlal54:focus,.css-1nlal54:hover{box-shadow:0 2px 14px #22222244;z-index:10;}</style><a href="https://instagram.com/p/B6ecsSvgXhZ" class="css-1nlal54"><style data-emotion-css="ia6c96">.css-ia6c96{width:100%;}.css-ia6c96 *{margin-top:0;}</style><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAwH/2gAMAwEAAhADEAAAAenbTPFVIViBCgNf/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAECERID/9oACAEBAAEFApU5yipWznPo+SiaeOtKo//EABYRAQEBAAAAAAAAAAAAAAAAAAABMf/aAAgBAwEBPwG6mKmP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAGxAAAQQDAAAAAAAAAAAAAAAAAAEQIVERMUH/2gAIAQEABj8C42kEgoTNNLf/xAAcEAEAAgMAAwAAAAAAAAAAAAABACERMVFBcfD/2gAIAQEAAT8hqTJMZoqp8YIQcOQ9xDNQUbCbDzEo9oEfREVBj5KNT//aAAwDAQACAAMAAAAQt+eA/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEhEf/aAAgBAwEBPxBtajvFIbwWD//EABcRAQEBAQAAAAAAAAAAAAAAAAEAITH/2gAIAQIBAT8QDJNjk9v/xAAeEAEAAgMAAgMAAAAAAAAAAAABABEhMUFRYYGhsf/aAAgBAQABPxCjY5FZuMagrgGvm+pmj9CdZaXYw84OwSt4lteBvFfsowuVTu49iI1Doo5BSt7uFIMKG/L7n//Z" alt="PSA for those experiencing housing insecurity!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/bd133cf75b9978236723bef55ade92a0/e711a/79942937_204229423944444_1612967054873989299_n.webp 30w,
+/static/bd133cf75b9978236723bef55ade92a0/ca41d/79942937_204229423944444_1612967054873989299_n.webp 60w,
+/static/bd133cf75b9978236723bef55ade92a0/f0218/79942937_204229423944444_1612967054873989299_n.webp 120w,
+/static/bd133cf75b9978236723bef55ade92a0/88812/79942937_204229423944444_1612967054873989299_n.webp 180w,
+/static/bd133cf75b9978236723bef55ade92a0/331a6/79942937_204229423944444_1612967054873989299_n.webp 240w,
+/static/bd133cf75b9978236723bef55ade92a0/ab687/79942937_204229423944444_1612967054873989299_n.webp 600w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/bd133cf75b9978236723bef55ade92a0/a420a/79942937_204229423944444_1612967054873989299_n.jpg 30w,
+/static/bd133cf75b9978236723bef55ade92a0/d616a/79942937_204229423944444_1612967054873989299_n.jpg 60w,
+/static/bd133cf75b9978236723bef55ade92a0/c16ee/79942937_204229423944444_1612967054873989299_n.jpg 120w,
+/static/bd133cf75b9978236723bef55ade92a0/9b191/79942937_204229423944444_1612967054873989299_n.jpg 180w,
+/static/bd133cf75b9978236723bef55ade92a0/685db/79942937_204229423944444_1612967054873989299_n.jpg 240w,
+/static/bd133cf75b9978236723bef55ade92a0/3ea63/79942937_204229423944444_1612967054873989299_n.jpg 600w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/bd133cf75b9978236723bef55ade92a0/a420a/79942937_204229423944444_1612967054873989299_n.jpg 30w,
+/static/bd133cf75b9978236723bef55ade92a0/d616a/79942937_204229423944444_1612967054873989299_n.jpg 60w,
+/static/bd133cf75b9978236723bef55ade92a0/c16ee/79942937_204229423944444_1612967054873989299_n.jpg 120w,
+/static/bd133cf75b9978236723bef55ade92a0/9b191/79942937_204229423944444_1612967054873989299_n.jpg 180w,
+/static/bd133cf75b9978236723bef55ade92a0/685db/79942937_204229423944444_1612967054873989299_n.jpg 240w,
+/static/bd133cf75b9978236723bef55ade92a0/3ea63/79942937_204229423944444_1612967054873989299_n.jpg 600w" src="/static/bd133cf75b9978236723bef55ade92a0/c16ee/79942937_204229423944444_1612967054873989299_n.jpg" alt="PSA for those experiencing housing insecurity!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B35-dfXAm1K" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAECBf/EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAAe6g2gtAD//EABoQAAICAwAAAAAAAAAAAAAAAAABERIQIEH/2gAIAQEAAQUCtBbHYYtP/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAFxAAAwEAAAAAAAAAAAAAAAAAABAxIP/aAAgBAQAGPwJ0uf/EAB0QAQACAQUBAAAAAAAAAAAAAAEAETEQICFBYZH/2gAIAQEAAT8hQqZS+/mjljPbAhy3s//aAAwDAQACAAMAAAAQE8gA/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPxAf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPxAf/8QAHBABAQEAAQUAAAAAAAAAAAAAAREAQSAhUWHx/9oACAEBAAE/EGlKesPAU8YNLrS7Zwb4WgFXl6P/2Q==" alt="Interested in making a difference in your Westwood community? Apply to be a North Westwood Neighborhood Councilmember!
 
-        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body>
+Please email northwestwoodcouncil@gmail.com with a statement of interest, proof of stakeholdership in North Westwood, and make sure you are present at next month’s council meeting to be eligible. 
+meme credits: @sheshouldrun" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/a6db4e315849720c70b89e4ab9ce609b/e711a/74580029_143710007019850_341390617707717271_n.webp 30w,
+/static/a6db4e315849720c70b89e4ab9ce609b/ca41d/74580029_143710007019850_341390617707717271_n.webp 60w,
+/static/a6db4e315849720c70b89e4ab9ce609b/f0218/74580029_143710007019850_341390617707717271_n.webp 120w,
+/static/a6db4e315849720c70b89e4ab9ce609b/88812/74580029_143710007019850_341390617707717271_n.webp 180w,
+/static/a6db4e315849720c70b89e4ab9ce609b/331a6/74580029_143710007019850_341390617707717271_n.webp 240w,
+/static/a6db4e315849720c70b89e4ab9ce609b/8dd90/74580029_143710007019850_341390617707717271_n.webp 708w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/a6db4e315849720c70b89e4ab9ce609b/a420a/74580029_143710007019850_341390617707717271_n.jpg 30w,
+/static/a6db4e315849720c70b89e4ab9ce609b/d616a/74580029_143710007019850_341390617707717271_n.jpg 60w,
+/static/a6db4e315849720c70b89e4ab9ce609b/c16ee/74580029_143710007019850_341390617707717271_n.jpg 120w,
+/static/a6db4e315849720c70b89e4ab9ce609b/9b191/74580029_143710007019850_341390617707717271_n.jpg 180w,
+/static/a6db4e315849720c70b89e4ab9ce609b/685db/74580029_143710007019850_341390617707717271_n.jpg 240w,
+/static/a6db4e315849720c70b89e4ab9ce609b/9055b/74580029_143710007019850_341390617707717271_n.jpg 708w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/a6db4e315849720c70b89e4ab9ce609b/a420a/74580029_143710007019850_341390617707717271_n.jpg 30w,
+/static/a6db4e315849720c70b89e4ab9ce609b/d616a/74580029_143710007019850_341390617707717271_n.jpg 60w,
+/static/a6db4e315849720c70b89e4ab9ce609b/c16ee/74580029_143710007019850_341390617707717271_n.jpg 120w,
+/static/a6db4e315849720c70b89e4ab9ce609b/9b191/74580029_143710007019850_341390617707717271_n.jpg 180w,
+/static/a6db4e315849720c70b89e4ab9ce609b/685db/74580029_143710007019850_341390617707717271_n.jpg 240w,
+/static/a6db4e315849720c70b89e4ab9ce609b/9055b/74580029_143710007019850_341390617707717271_n.jpg 708w" src="/static/a6db4e315849720c70b89e4ab9ce609b/c16ee/74580029_143710007019850_341390617707717271_n.jpg" alt="Interested in making a difference in your Westwood community? Apply to be a North Westwood Neighborhood Councilmember!
 
-        <div class="header-container">
-            <header class="wrapper clearfix">
-                <h1 class="title">North Westwood Neighborhood Council</h1>
-                 <nav>
-                    <ul>
-                        <li><a href="index.html">Meetings</a></li>
-                        <li><a href="minutes.html">Meeting Minutes</a></li>
-                        <li><a href="upcoming.html">Upcoming Meetings</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+Please email northwestwoodcouncil@gmail.com with a statement of interest, proof of stakeholdership in North Westwood, and make sure you are present at next month’s council meeting to be eligible. 
+meme credits: @sheshouldrun" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/BylIuQTgW-_" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAMEAf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/aAAwDAQACEAMQAAABbk05Vwoy/8QAGBABAAMBAAAAAAAAAAAAAAAAAgABAyL/2gAIAQEAAQUCS0M6pW7j1bxyajOtz//EABURAQEAAAAAAAAAAAAAAAAAAAAR/9oACAEDAQE/AVf/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEv/aAAgBAgEBPwFL/8QAHRAAAgEFAQEAAAAAAAAAAAAAAAECERIhMUEyYf/aAAgBAQAGPwKtjyPs1tHpkvmxzeeCsiqUP//EABwQAQADAAIDAAAAAAAAAAAAAAEAESExcUFRYf/aAAgBAQABPyEa5eKQztmJuxVIPvucI3W1wg3sdii+CZ//2gAMAwEAAgADAAAAEKPv/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERQf/aAAgBAwEBPxDYxj//xAAXEQEBAQEAAAAAAAAAAAAAAAARAAEh/9oACAECAQE/EDRLOL//xAAdEAEBAAMAAgMAAAAAAAAAAAABEQAhMUFhUXGx/9oACAEBAAE/ENCkNW1fJ27x0UhBYFt9cuAMKaa8kdPPieseAIIFx0I/eTTNU1VXo/uBvMJDrtt81c//2Q==" alt="Meet (some of) our new council members!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/194c1a9e283bfb61dbb0e36f49a7f0fe/e711a/61970790_488622068541903_3760905247625588839_n.webp 30w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/ca41d/61970790_488622068541903_3760905247625588839_n.webp 60w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/f0218/61970790_488622068541903_3760905247625588839_n.webp 120w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/88812/61970790_488622068541903_3760905247625588839_n.webp 180w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/331a6/61970790_488622068541903_3760905247625588839_n.webp 240w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/12058/61970790_488622068541903_3760905247625588839_n.webp 521w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/194c1a9e283bfb61dbb0e36f49a7f0fe/a420a/61970790_488622068541903_3760905247625588839_n.jpg 30w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/d616a/61970790_488622068541903_3760905247625588839_n.jpg 60w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/c16ee/61970790_488622068541903_3760905247625588839_n.jpg 120w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/9b191/61970790_488622068541903_3760905247625588839_n.jpg 180w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/685db/61970790_488622068541903_3760905247625588839_n.jpg 240w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/054af/61970790_488622068541903_3760905247625588839_n.jpg 521w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/194c1a9e283bfb61dbb0e36f49a7f0fe/a420a/61970790_488622068541903_3760905247625588839_n.jpg 30w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/d616a/61970790_488622068541903_3760905247625588839_n.jpg 60w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/c16ee/61970790_488622068541903_3760905247625588839_n.jpg 120w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/9b191/61970790_488622068541903_3760905247625588839_n.jpg 180w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/685db/61970790_488622068541903_3760905247625588839_n.jpg 240w,
+/static/194c1a9e283bfb61dbb0e36f49a7f0fe/054af/61970790_488622068541903_3760905247625588839_n.jpg 521w" src="/static/194c1a9e283bfb61dbb0e36f49a7f0fe/c16ee/61970790_488622068541903_3760905247625588839_n.jpg" alt="Meet (some of) our new council members!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B4BVSOFgLze" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHOaTGtmZPR5SUKf//EABsQAAMAAwEBAAAAAAAAAAAAAAABAgMRExIx/9oACAEBAAEFAurFkaO+h/Z2PyVghS0Y4Tn/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/AYQWf//EABgRAAIDAAAAAAAAAAAAAAAAAAARARAx/9oACAECAQE/AWMna//EABoQAQACAwEAAAAAAAAAAAAAAAABIRARMUH/2gAIAQEABj8CztbqZtD1/8QAHBAAAwEAAgMAAAAAAAAAAAAAAAERITFRcYHR/9oACAEBAAE/Ia/CtjpeUn7ErF24YJYXdUl2ZeMLqpvCZ//aAAwDAQACAAMAAAAQy9hA/8QAGREAAwADAAAAAAAAAAAAAAAAAAERECEx/9oACAEDAQE/EIx2TouH/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAgEBPxCrELC//8QAHBABAQEAAgMBAAAAAAAAAAAAAREAITFBUWGR/9oACAEBAAE/ELxZy83JusS9ZklTpBMIBUVEgM+eTCLJFKQT5n8mIe7iREoWn51iSaiJvElmTqVBEAb/2Q==" alt="#tbt to an era when pedestrian traffic was the rule, not the exception, in Westwood!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/cff5a06fa5a24581ba980d6db0a9df81/e711a/73546060_526624944584348_4127220133496378158_n.webp 30w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/ca41d/73546060_526624944584348_4127220133496378158_n.webp 60w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/f0218/73546060_526624944584348_4127220133496378158_n.webp 120w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/88812/73546060_526624944584348_4127220133496378158_n.webp 180w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/331a6/73546060_526624944584348_4127220133496378158_n.webp 240w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/3e913/73546060_526624944584348_4127220133496378158_n.webp 549w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/cff5a06fa5a24581ba980d6db0a9df81/a420a/73546060_526624944584348_4127220133496378158_n.jpg 30w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/d616a/73546060_526624944584348_4127220133496378158_n.jpg 60w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/c16ee/73546060_526624944584348_4127220133496378158_n.jpg 120w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/9b191/73546060_526624944584348_4127220133496378158_n.jpg 180w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/685db/73546060_526624944584348_4127220133496378158_n.jpg 240w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/c50eb/73546060_526624944584348_4127220133496378158_n.jpg 549w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/cff5a06fa5a24581ba980d6db0a9df81/a420a/73546060_526624944584348_4127220133496378158_n.jpg 30w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/d616a/73546060_526624944584348_4127220133496378158_n.jpg 60w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/c16ee/73546060_526624944584348_4127220133496378158_n.jpg 120w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/9b191/73546060_526624944584348_4127220133496378158_n.jpg 180w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/685db/73546060_526624944584348_4127220133496378158_n.jpg 240w,
+/static/cff5a06fa5a24581ba980d6db0a9df81/c50eb/73546060_526624944584348_4127220133496378158_n.jpg 549w" src="/static/cff5a06fa5a24581ba980d6db0a9df81/c16ee/73546060_526624944584348_4127220133496378158_n.jpg" alt="#tbt to an era when pedestrian traffic was the rule, not the exception, in Westwood!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B7C2VTyJI1F" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAIEBQP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAb1rAli6jBVV6FQB/8QAGhAAAgMBAQAAAAAAAAAAAAAAAQIAAxEhMf/aAAgBAQABBQJOlkGEqkazF3aWud43qEmE9//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABYRAAMAAAAAAAAAAAAAAAAAAAEgMf/aAAgBAgEBPwERP//EABwQAAAGAwAAAAAAAAAAAAAAAAABAhARQRIhcf/aAAgBAQAGPwJoMcCN0YlTY03/xAAaEAEAAwADAAAAAAAAAAAAAAABABEhMVGh/9oACAEBAAE/Ict6RmCoxCwRR6PMd+mnsUABMwqNtBBK0iKZ/9oADAMBAAIAAwAAABCc333/xAAZEQACAwEAAAAAAAAAAAAAAAAAARARITH/2gAIAQMBAT8Qa0ofY//EABkRAQACAwAAAAAAAAAAAAAAAAEAEBEhMf/aAAgBAgEBPxDM2isOV//EAB0QAQADAAIDAQAAAAAAAAAAAAEAESExQVFhkYH/2gAIAQEAAT8QRYt3bDlCIMrurlyAWWBjh32/Jq8m1bLxXyGwLKYt6/ZzJpDI8sMB2g2jxGdytz//2Q==" alt="Board members and the land use committee toured Dormshare tonight to learn about their business model and their plans to house vulnerable members of our community!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/90c9f7213a5d1e782d4df4f5daca3857/e711a/79512249_469991877272697_5105850090305701411_n.webp 30w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/ca41d/79512249_469991877272697_5105850090305701411_n.webp 60w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/f0218/79512249_469991877272697_5105850090305701411_n.webp 120w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/88812/79512249_469991877272697_5105850090305701411_n.webp 180w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/331a6/79512249_469991877272697_5105850090305701411_n.webp 240w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/78754/79512249_469991877272697_5105850090305701411_n.webp 1080w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/90c9f7213a5d1e782d4df4f5daca3857/a420a/79512249_469991877272697_5105850090305701411_n.jpg 30w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/d616a/79512249_469991877272697_5105850090305701411_n.jpg 60w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/c16ee/79512249_469991877272697_5105850090305701411_n.jpg 120w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/9b191/79512249_469991877272697_5105850090305701411_n.jpg 180w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/685db/79512249_469991877272697_5105850090305701411_n.jpg 240w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/ea025/79512249_469991877272697_5105850090305701411_n.jpg 1080w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/90c9f7213a5d1e782d4df4f5daca3857/a420a/79512249_469991877272697_5105850090305701411_n.jpg 30w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/d616a/79512249_469991877272697_5105850090305701411_n.jpg 60w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/c16ee/79512249_469991877272697_5105850090305701411_n.jpg 120w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/9b191/79512249_469991877272697_5105850090305701411_n.jpg 180w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/685db/79512249_469991877272697_5105850090305701411_n.jpg 240w,
+/static/90c9f7213a5d1e782d4df4f5daca3857/ea025/79512249_469991877272697_5105850090305701411_n.jpg 1080w" src="/static/90c9f7213a5d1e782d4df4f5daca3857/c16ee/79512249_469991877272697_5105850090305701411_n.jpg" alt="Board members and the land use committee toured Dormshare tonight to learn about their business model and their plans to house vulnerable members of our community!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/BzCkojcgV_I" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMBBP/EABgBAAIDAAAAAAAAAAAAAAAAAAEDAAIE/9oADAMBAAIQAxAAAAHlzTGxFjTpM8iCf//EABwQAAIBBQEAAAAAAAAAAAAAAAABEQISIjEyQf/aAAgBAQABBQLwYubh7MSqJ//EABURAQEAAAAAAAAAAAAAAAAAABAB/9oACAEDAQE/ASH/xAAZEQACAwEAAAAAAAAAAAAAAAAAAQMQESH/2gAIAQIBAT8BypWJ8P/EABoQAAICAwAAAAAAAAAAAAAAAAABAiAhMjP/2gAIAQEABj8CtHBziapH/8QAHhAAAgEDBQAAAAAAAAAAAAAAAAERITGRQVFx8PH/2gAIAQEAAT8hVlFgafUJDGhDgNLEqci3J9I9im0P/9oADAMBAAIAAwAAABCc6Lz/xAAXEQEAAwAAAAAAAAAAAAAAAAAQAREx/9oACAEDAQE/ELkwf//EABkRAQACAwAAAAAAAAAAAAAAAAEAERAhQf/aAAgBAgEBPxABzCCUxqbn/8QAIhABAAMAAAQHAAAAAAAAAAAAAQARITFBUdFhcYGRobHB/9oACAEBAAE/EGKcs83zNSewYqiPXSpmKupaqx472jI31iFQDNGuDjs2/DujTQcga+5//9k=" alt="ICE raids are expected to begin tomorrow in major U.S. cities including Los Angeles.
 
-        <div class="main-container">
-            <div class="main wrapper clearfix">
-                <!--
-                <div>
-                    <header>
-                        <h1>Announcement</h1>
-                        <p></p>
-                    </header>
-                </div>
-                -->
-                <article>
-                    <header>
-                        <h1>Meetings</h1>
-                        <p></p>
-                    </header>
+If you may be targeted by tomorrow&#x27;s raid, take a moment to read up on your rights. If you know someone who may be targeted, send this list of rights to them and make sure that they understand them." style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/6ece9f2af637bd9dde607b58116145cf/e711a/62559475_412751905994234_4553295414224416181_n.webp 30w,
+/static/6ece9f2af637bd9dde607b58116145cf/ca41d/62559475_412751905994234_4553295414224416181_n.webp 60w,
+/static/6ece9f2af637bd9dde607b58116145cf/f0218/62559475_412751905994234_4553295414224416181_n.webp 120w,
+/static/6ece9f2af637bd9dde607b58116145cf/88812/62559475_412751905994234_4553295414224416181_n.webp 180w,
+/static/6ece9f2af637bd9dde607b58116145cf/331a6/62559475_412751905994234_4553295414224416181_n.webp 240w,
+/static/6ece9f2af637bd9dde607b58116145cf/12535/62559475_412751905994234_4553295414224416181_n.webp 960w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/6ece9f2af637bd9dde607b58116145cf/a420a/62559475_412751905994234_4553295414224416181_n.jpg 30w,
+/static/6ece9f2af637bd9dde607b58116145cf/d616a/62559475_412751905994234_4553295414224416181_n.jpg 60w,
+/static/6ece9f2af637bd9dde607b58116145cf/c16ee/62559475_412751905994234_4553295414224416181_n.jpg 120w,
+/static/6ece9f2af637bd9dde607b58116145cf/9b191/62559475_412751905994234_4553295414224416181_n.jpg 180w,
+/static/6ece9f2af637bd9dde607b58116145cf/685db/62559475_412751905994234_4553295414224416181_n.jpg 240w,
+/static/6ece9f2af637bd9dde607b58116145cf/62a6c/62559475_412751905994234_4553295414224416181_n.jpg 960w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/6ece9f2af637bd9dde607b58116145cf/a420a/62559475_412751905994234_4553295414224416181_n.jpg 30w,
+/static/6ece9f2af637bd9dde607b58116145cf/d616a/62559475_412751905994234_4553295414224416181_n.jpg 60w,
+/static/6ece9f2af637bd9dde607b58116145cf/c16ee/62559475_412751905994234_4553295414224416181_n.jpg 120w,
+/static/6ece9f2af637bd9dde607b58116145cf/9b191/62559475_412751905994234_4553295414224416181_n.jpg 180w,
+/static/6ece9f2af637bd9dde607b58116145cf/685db/62559475_412751905994234_4553295414224416181_n.jpg 240w,
+/static/6ece9f2af637bd9dde607b58116145cf/62a6c/62559475_412751905994234_4553295414224416181_n.jpg 960w" src="/static/6ece9f2af637bd9dde607b58116145cf/c16ee/62559475_412751905994234_4553295414224416181_n.jpg" alt="ICE raids are expected to begin tomorrow in major U.S. cities including Los Angeles.
 
-                    <section>
-                        <h3>North Westwood Neighborhood Council General Board Meeting</h3>
-                        <p>January 8, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/01.08.20-NWWNC-General-Board-Meeting.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
+If you may be targeted by tomorrow's raid, take a moment to read up on your rights. If you know someone who may be targeted, send this list of rights to them and make sure that they understand them." style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/BxqPv8ahkzn" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAQP/xAAXAQADAQAAAAAAAAAAAAAAAAAAAQID/9oADAMBAAIQAxAAAAHclU0PD0QZ6aKAKf/EABsQAAICAwEAAAAAAAAAAAAAAAECAwQAERIT/9oACAEBAAEFAm5dDGgHlkQ29tdSSHlqjnq2T6Z//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEQEv/aAAgBAwEBPwE0r//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAfEAACAQMFAQAAAAAAAAAAAAAAAQIhMYEQERIiQVH/2gAIAQEABj8C8ZgtGpGvWS3Io4qyQl8RjT//xAAcEAEBAQACAwEAAAAAAAAAAAABEQAhMWFxgeH/2gAIAQEAAT8hCEh5yyoIn3uggApd+qPNLniSzrECwQZC4jT640jxOu//2gAMAwEAAgADAAAAEKs4/f/EABgRAAIDAAAAAAAAAAAAAAAAAAABEBFh/9oACAEDAQE/EG6MBx//xAAYEQADAQEAAAAAAAAAAAAAAAAAAREQYf/aAAgBAgEBPxBdQrHn/8QAHRABAQACAgMBAAAAAAAAAAAAAREAIUFxMVFhwf/aAAgBAQABPxBeOAix6caddnSBlT11ls8ADY+MWwRl5ABL3mpZpLQL86x5BKH5f3PNIPNkKY7kVg524tC+s//Z" alt="Unofficial results! Scroll down to find us: https://clerk.lacity.org/sites/g/files/wph606/f/2019%20NC%20Election%20Unofficial%20Results%20-%20Region%204.pdf" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/5bc36a438607794b4e27ce0569621504/e711a/60304648_171491247184659_2093968477865459951_n.webp 30w,
+/static/5bc36a438607794b4e27ce0569621504/ca41d/60304648_171491247184659_2093968477865459951_n.webp 60w,
+/static/5bc36a438607794b4e27ce0569621504/f0218/60304648_171491247184659_2093968477865459951_n.webp 120w,
+/static/5bc36a438607794b4e27ce0569621504/88812/60304648_171491247184659_2093968477865459951_n.webp 180w,
+/static/5bc36a438607794b4e27ce0569621504/331a6/60304648_171491247184659_2093968477865459951_n.webp 240w,
+/static/5bc36a438607794b4e27ce0569621504/2c674/60304648_171491247184659_2093968477865459951_n.webp 720w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/5bc36a438607794b4e27ce0569621504/a420a/60304648_171491247184659_2093968477865459951_n.jpg 30w,
+/static/5bc36a438607794b4e27ce0569621504/d616a/60304648_171491247184659_2093968477865459951_n.jpg 60w,
+/static/5bc36a438607794b4e27ce0569621504/c16ee/60304648_171491247184659_2093968477865459951_n.jpg 120w,
+/static/5bc36a438607794b4e27ce0569621504/9b191/60304648_171491247184659_2093968477865459951_n.jpg 180w,
+/static/5bc36a438607794b4e27ce0569621504/685db/60304648_171491247184659_2093968477865459951_n.jpg 240w,
+/static/5bc36a438607794b4e27ce0569621504/d2e4b/60304648_171491247184659_2093968477865459951_n.jpg 720w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/5bc36a438607794b4e27ce0569621504/a420a/60304648_171491247184659_2093968477865459951_n.jpg 30w,
+/static/5bc36a438607794b4e27ce0569621504/d616a/60304648_171491247184659_2093968477865459951_n.jpg 60w,
+/static/5bc36a438607794b4e27ce0569621504/c16ee/60304648_171491247184659_2093968477865459951_n.jpg 120w,
+/static/5bc36a438607794b4e27ce0569621504/9b191/60304648_171491247184659_2093968477865459951_n.jpg 180w,
+/static/5bc36a438607794b4e27ce0569621504/685db/60304648_171491247184659_2093968477865459951_n.jpg 240w,
+/static/5bc36a438607794b4e27ce0569621504/d2e4b/60304648_171491247184659_2093968477865459951_n.jpg 720w" src="/static/5bc36a438607794b4e27ce0569621504/c16ee/60304648_171491247184659_2093968477865459951_n.jpg" alt="Unofficial results! Scroll down to find us: https://clerk.lacity.org/sites/g/files/wph606/f/2019%20NC%20Election%20Unofficial%20Results%20-%20Region%204.pdf" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B51U0xxA2Y2" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAwUC/8QAFwEBAQEBAAAAAAAAAAAAAAAAAgMAAf/aAAwDAQACEAMQAAABXvlA7TERcfqv7lTHHBn/xAAfEAACAQIHAAAAAAAAAAAAAAABAgADEhAREyEiMUL/2gAIAQEAAQUC1Gvv45qYyIsDkArdAu1SkHQVcB36/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQAQ/9oACAEDAQE/ASN//8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQERL/2gAIAQIBAT8Bs05//8QAHxAAAgICAQUAAAAAAAAAAAAAAAECIRESMRAiQVFy/9oACAEBAAY/AsOXAnFF7IahGz1nwZ3aLO3lF9Z/R//EAB0QAQACAgMBAQAAAAAAAAAAAAEAESExQVFhEKH/2gAIAQEAAT8hVQOJ1uLctvPTKwpK0EogfU2+mgiLYcSgObzFBjqlBRpPI7+R+yf/2gAMAwEAAgADAAAAEP8AG/3/xAAZEQACAwEAAAAAAAAAAAAAAAAAAREhQVH/2gAIAQMBAT8QbUs0jwaRZ//EABcRAAMBAAAAAAAAAAAAAAAAAAABIWH/2gAIAQIBAT8Qqo0E6Q//xAAgEAEAAgIBBAMAAAAAAAAAAAABABEhMUFRYXGRocHw/9oACAEBAAE/EFPblAbUx1xMEPh0M56CEgzmFlN2N0QXbQcILzd+JX/wn1BT4cFs517hhbBc45I18wmkjU0eZ98/U7T/2Q==" alt="Highlights from our very first community improvement project: sidewalk beautification and power washing along Westwood Blvd south of Wilshire!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/0374680cd8103ee55d16c4f6a0d10f64/e711a/74600030_243090416671700_2909506815934184666_n.webp 30w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/ca41d/74600030_243090416671700_2909506815934184666_n.webp 60w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/f0218/74600030_243090416671700_2909506815934184666_n.webp 120w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/88812/74600030_243090416671700_2909506815934184666_n.webp 180w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/331a6/74600030_243090416671700_2909506815934184666_n.webp 240w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/dee88/74600030_243090416671700_2909506815934184666_n.webp 481w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/0374680cd8103ee55d16c4f6a0d10f64/a420a/74600030_243090416671700_2909506815934184666_n.jpg 30w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/d616a/74600030_243090416671700_2909506815934184666_n.jpg 60w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/c16ee/74600030_243090416671700_2909506815934184666_n.jpg 120w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/9b191/74600030_243090416671700_2909506815934184666_n.jpg 180w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/685db/74600030_243090416671700_2909506815934184666_n.jpg 240w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/6cd0e/74600030_243090416671700_2909506815934184666_n.jpg 481w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/0374680cd8103ee55d16c4f6a0d10f64/a420a/74600030_243090416671700_2909506815934184666_n.jpg 30w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/d616a/74600030_243090416671700_2909506815934184666_n.jpg 60w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/c16ee/74600030_243090416671700_2909506815934184666_n.jpg 120w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/9b191/74600030_243090416671700_2909506815934184666_n.jpg 180w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/685db/74600030_243090416671700_2909506815934184666_n.jpg 240w,
+/static/0374680cd8103ee55d16c4f6a0d10f64/6cd0e/74600030_243090416671700_2909506815934184666_n.jpg 481w" src="/static/0374680cd8103ee55d16c4f6a0d10f64/c16ee/74600030_243090416671700_2909506815934184666_n.jpg" alt="Highlights from our very first community improvement project: sidewalk beautification and power washing along Westwood Blvd south of Wilshire!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B3vI__igrO3" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAMBAQAAAAAAAAAAAAAAAAIEBQYD/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB2amLA6tzwtyDxB//xAAaEAADAAMBAAAAAAAAAAAAAAAAAQIDERIE/9oACAEBAAEFAnSicfpV0cup4tJZblbYtjhH/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAwEBPwEf/8QAFBEBAAAAAAAAAAAAAAAAAAAAIP/aAAgBAgEBPwEf/8QAHBAAAQQDAQAAAAAAAAAAAAAAAAECESEQMUES/9oACAEBAAY/AvTtIQqRi3KRdHcbOn//xAAcEAEAAwEAAwEAAAAAAAAAAAABABEhMUFxgZH/2gAIAQEAAT8hc4QwoODPTLHQ+EZgRHDUqln7EjsSOoptf1P/2gAMAwEAAgADAAAAEHMIPP/EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8QH//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8QH//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExQWFx0f/aAAgBAQABPxDFcLe+oIOvK08D9glDYOqikrjmrhjNRovMCPrYB4QgCfViDGVoambhUf/Z" alt="#ThrowbackThursday to when the Janss Investment Company, a real estate company largely responsible for the early development of Westwood, had its headquarters in the &#x27;Janss Dome&#x27; on Broxton! 
+The Janss brothers, who sold the land on which UCLA now exists to the state of California, are the namesakes of the famous Janss Steps between Wilson Plaza and the Royce Quad.
 
-                    <section>
-                        <h3>Special Meeting of the North Westwood Neighborhood Council Community Activities and Projects Special Committee Meeting</h3>
-                        <p>Tuesday, October 29, 2019, 6:30pm to 7:30pm<br />Corner Bakery Cafe<br />
-1019 S. Westwood Blvd<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/2020-01-07-nwwnc-cap-committee-meeting.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
+Fun fact: did you know that in 1925, the Janss Investment Company sued to block an African-American family from purchasing a home in Westwood (Janss Investment Company v. Walden)? Every Janss-built home in Westwood had the following restrictive covenant: &quot;No part of said real property shall ever be leased, rented, sold or conveyed to any person who is not of the white or Caucasian race, nor be used or occupied by any person who is not of the white or the Caucasian race whether grantee hereunder or any other person.&quot; Food for thought!" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/519706f579672e7548806c4c84a75677/e711a/72792611_2501091376595094_2777117881740379820_n.webp 30w,
+/static/519706f579672e7548806c4c84a75677/ca41d/72792611_2501091376595094_2777117881740379820_n.webp 60w,
+/static/519706f579672e7548806c4c84a75677/f0218/72792611_2501091376595094_2777117881740379820_n.webp 120w,
+/static/519706f579672e7548806c4c84a75677/88812/72792611_2501091376595094_2777117881740379820_n.webp 180w,
+/static/519706f579672e7548806c4c84a75677/331a6/72792611_2501091376595094_2777117881740379820_n.webp 240w,
+/static/519706f579672e7548806c4c84a75677/c0107/72792611_2501091376595094_2777117881740379820_n.webp 959w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/519706f579672e7548806c4c84a75677/a420a/72792611_2501091376595094_2777117881740379820_n.jpg 30w,
+/static/519706f579672e7548806c4c84a75677/d616a/72792611_2501091376595094_2777117881740379820_n.jpg 60w,
+/static/519706f579672e7548806c4c84a75677/c16ee/72792611_2501091376595094_2777117881740379820_n.jpg 120w,
+/static/519706f579672e7548806c4c84a75677/9b191/72792611_2501091376595094_2777117881740379820_n.jpg 180w,
+/static/519706f579672e7548806c4c84a75677/685db/72792611_2501091376595094_2777117881740379820_n.jpg 240w,
+/static/519706f579672e7548806c4c84a75677/6d8ff/72792611_2501091376595094_2777117881740379820_n.jpg 959w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/519706f579672e7548806c4c84a75677/a420a/72792611_2501091376595094_2777117881740379820_n.jpg 30w,
+/static/519706f579672e7548806c4c84a75677/d616a/72792611_2501091376595094_2777117881740379820_n.jpg 60w,
+/static/519706f579672e7548806c4c84a75677/c16ee/72792611_2501091376595094_2777117881740379820_n.jpg 120w,
+/static/519706f579672e7548806c4c84a75677/9b191/72792611_2501091376595094_2777117881740379820_n.jpg 180w,
+/static/519706f579672e7548806c4c84a75677/685db/72792611_2501091376595094_2777117881740379820_n.jpg 240w,
+/static/519706f579672e7548806c4c84a75677/6d8ff/72792611_2501091376595094_2777117881740379820_n.jpg 959w" src="/static/519706f579672e7548806c4c84a75677/c16ee/72792611_2501091376595094_2777117881740379820_n.jpg" alt="#ThrowbackThursday to when the Janss Investment Company, a real estate company largely responsible for the early development of Westwood, had its headquarters in the 'Janss Dome' on Broxton! 
+The Janss brothers, who sold the land on which UCLA now exists to the state of California, are the namesakes of the famous Janss Steps between Wilson Plaza and the Royce Quad.
 
-                    <section>
-                        <h3>North Westwood Neighborhood Council
-Land Use Committee Joint Meeting with Full Board</h3>
-                        <p>
-Land Use Committee Joint Meeting with Full Board<br /> January 7, 2020 from 6:00 to 6:50pm<br /> PodShare’s “DormShare”<br /> 10794 LeConte Avenue<br />
- Los Angeles CA 90024</p>
-                        <p><a href="docs/01.07.20-NWWNC-Special-Joint-Meeting-of-Land-Use-Committee-General-Board.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-
-                    <section>
-                        <h3>North Westwood Neighborhood Council Outreach and Communication Committee Meeting</h3>
-                        <p>January 6, 2020 from 5:30pm to 6:00pm<br />1139 Glendon Ave. (Skylight Gardens)<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/1.06.2020-NWNC-Outreach-and-Communication-Meeting-Notice-and-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council General Board Meeting</h3>
-                        <p>December 4, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/12.04.19-NWWNC-General-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Budget Committee</h3>
-                        <p>December 4, 2019 from 6:00 to 7:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/NWWNC-12-4-19-Budget-Cmte-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Community Activities and Projects Special Committee Meeting</h3>
-                        <p>Tuesday, October 29, 2019, 7:00pm to 8:10pm<br />Corner Bakery Cafe<br />
-1019 S. Westwood Blvd<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/2019-12-3-nwwnc-cap-agenda-december.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Outreach and Communication Committee Meeting</h3>
-                        <p>December 2, 2019 from 5:00pm to 6:00pm<br />1139 Glendon Ave. (Skylight Gardens)<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/12.2.2019-NWNC-Outreach-and-Communication-Meeting-Notice.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past Meeting of the Transportation and Safety Committee</h3>
-                        <p>
-Tuesday November 19th, 2019, 7:00pm to 10:00pm<br /> Kerckhoff Hall, Room 317<br />
-308 Westwood Plaza<br /> Los Angeles, CA 90095</p>
-                        <p><a href="docs/NWWNC-T-S-11_19_19-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council General Board Meeting</h3>
-                        <p>
-November 6, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/11.06.19-NWWNC-General-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Community Activities and Projects Special Committee Meeting</h3>
-                        <p>Tuesday, October 29, 2019, 7:00pm to 8:06pm<br />Corner Bakery Cafe<br />
-1019 S. Westwood Blvd<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/2019-10-29-NWWNC-cap-committee-meeting-agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council General Board Meeting</h3>
-                        <p>
-October 2, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/10.02.19-NWWNC-General-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>
-October 2, 2019 from 9:00 to 9:05pm (Will be conducted during a recess of the general board meeting)<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/10.02.19-NWWNC-Special-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Land Use and General Board Joint Meeting</h3>
-                        <p>
-October 2, 2019 from 6:00 to 7:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/10.02.19-NWWNC-Land-Use-Committee-Joint-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-
-                        <h3>Past Meeting of the Transportation and Safety Committee</h3>
-                        <p>
-Tuesday October 1st, 2019, 7:00pm to 10:00pm<br /> Kerckhoff Hall, Room 317<br />
-308 Westwood Plaza<br /> Los Angeles, CA 90095</p>
-                        <p><a href="docs/NWWNC-transportation-safety-2019-10-01-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Outreach and Communication Committee Meeting</h3>
-                        <p>September 30, 2019 from 5:00pm to 6:00pm<br />1139 Glendon Ave. (Skylight Gardens)<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/9.30.2019-NWNC-Outreach-and-Communication-Meeting-Notice-and-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>
-September 3rd, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/9.03.19-NWWNC-Special-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>
-August 6th, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/8.06.19-NWWNC-Special-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                        <p><a href="docs/2019-08-westwood-park-multipurpose-field-support-letters.pdf">Reference Document - Westwood Park Multipurpose Field Support Letters (PDF)</a></p>
-                        <p><a href="docs/2019-08-02-westwood-park-multipurpose-field-letter-to-NWWNC.docx">Reference Document - Westwood Park Multipurpose Field Letter to NWWNC</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Outreach and Communication Committee</h3>
-                        <p>August 26, 2019 from 5:00pm to 6:00pm<br />1139 Glendon Ave. (Skylight Gardens)<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/8.26.2019-NWWNC-Outreach-and-Communication-Meeting-Notice-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-
-                    <section>
-                        <h3>Past Special Joint Meeting of the Board and the Transportation and Safety Committee</h3>
-                        <p>
-Tuesday August 6th, 2019, 6:00pm to 7:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/Transport_And_Safety_Committee_8_6_19_Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Community Activities and Projects Committee</h3>
-                        <p>Thursday, August 15, 2019, 7:00pm to 8:00pm<br />Corner Bakery Cafe<br />
-1019 S. Westwood Blvd<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/2019-08-15-agenda-cap-first-meeting.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>
-July 17th, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/7.17.19-NWWNC-Special-Board-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                        <p>Reference Document - <a href="docs/1300-Westwood-2019.07.17.pdf">1300 Westwood - 31 Unit Apartment Building</a></p>
-                    </section>
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council
-Transportation and Safety Committee Special Board Meeting</h3>
-                        <p>Wednesday July 17, 2019, 6:00pm to 7:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/2019-7-17-transportation-safety-committee-meeting-agenda.docx">Meeting Agenda (DOCX)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>
-June 10th, 2019 from 6:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/6.10.19-NWWNC-Special-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Special Board Meeting</h3>
-                        <p>(This meeting will be conducted during a recess of the 6 to 10pm Special Board Meeting which will occur at the same location)</p>
-                        <p>
-June 10th, 2019 from 8:00 to 8:10pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/6.10.19-NWWNC-Additional-8pm-Special-Meeting-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h2>Past North Westwood Neighborhood Council General Monthly Meeting</h2>
-                        <p>Past North Westwood Neighborhood Council General Monthly Meeting<br />
-May 1st, 2019 from 7:00 to 10:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/5.01.19-NWNC-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council
-Land Use Committee Joint Meeting with Full Board</h3>
-                        <p>
-Land Use Committee Joint Meeting with Full Board<br /> April 3rd, 2019 from 6:00 to 7:00pm<br /> Weyburn Commons Village View Room<br />
-4th Floor, 11020 Weyburn Dr.<br /> Los Angeles CA 90024</p>
-                        <p><a href="docs/4.03.19NWNCLandUseCommitteeJointMeeting.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Election Committee</h3>
-                        <p>Thursday, April 11th, 2019, at 6:00 pm<br />
-GSA Conference Room (316), UCLA Kerckhoff Hall<br />
-308 Westwood Plaza, Los Angeles, 90095<br /></p>
-                        <p><a href="docs/Apr11_NWNC_EC_Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council
-Transportation and Safety Committee</h3>
-                        <p>Tuesday April 23, 2019, 6:30 pm<br />Kerckhoff Hall Room 316<br />
-308 Westwood Plaza<br /> Los Angeles, CA 90095<br /></p>
-                        <p><a href="docs/2019-04-23-Transportation-and-Safety-Committee-Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-                    <section>
-                        <h3>Past North Westwood Neighborhood Council Outreach and Communication Committee</h3>
-                        <p>April 29, 2019 from 5:00pm to 6:00pm<br />1139 Glendon Ave. (Skylight Gardens)<br />Los Angeles, CA 90024<br /></p>
-                        <p><a href="docs/4.29.2019-NWNC-Outreach-and-Communication-Meeting-Notice.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Community Events and Project Committee</h3>
-                        <p>Wednesday, April 3, 2019, at 5:15 pm<br />Ralph J. Bunche Center for African American Studies and UCLA -<br />
-1308 Rolfe Hall<br />Los Angeles, CA 90095<br /></p>
-                        <p><a href="docs/AgendaApril32019CommunityEventsMeeting.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-                    <section>
-                        <h3>Past Meeting of the North Westwood Neighborhood Council Budget Committee</h3>
-                        <p>Tuesday, April 2, 2019, 8:00 pm<br />James West Alumni Center<br />Los Angeles, 90024</p>
-                        <p><a href="docs/April2_NWWNC_Budget_Comt_Mtg_Agenda.pdf">Meeting Agenda (PDF)</a></p>
-                    </section>
-
-
-<!--                     <footer>
-                        <h3>Committee Meeting</h3>
-                        <p>Content coming soon</p>
-                    </footer>
- -->
-                </article>
-
-                <aside>
-                    <h3>Announcement</h3>
-                        <p>Attention Stakeholders! Want to be part of the North Westwood Neighborhood Council? The following two positions have opened up. (Please note that we meet each first Wednesday of the month from 7 to 10pm.)<strong>If interested, please send a brief statement to <a href="mailto:northwestwoodcouncil@gmail.com">northwestwoodcouncil@gmail.com</a> by noon on December 4th.</strong><br/><br/>
-
-                        In this email, please also state whether you'll be able to attend our next meeting on December 4th to deliver a brief statement in person and answer any questions:<br/>
-                        <em>General Residential Stakeholder</em> – Open to Stakeholders who live within the NC boundaries, either as a homeowner, renter, person who experiences homelessness, or person who sublets or otherwise resides within the boundaries.<br/>
-                        <em>Organizational Stakeholder</em> – Open to Stakeholders who actively participate in a religious organization, educational institution, community organization, non-profit organization, neighborhood association, chamber of commerce, business improvement district, sorority, fraternity, school/parent group, student association, arts association, service organization, cultural group, etc. that primarily operates within the NC boundaries.</p>
-                </aside>
-            </div> <!-- #main -->
-        </div> <!-- #main-container -->
-
-        <div class="footer-container">
-            <footer class="wrapper">
-                <h3>North Westwood Neigborhood Council</h3>
-            </footer>
-        </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
-
-        <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
-</html>
+Fun fact: did you know that in 1925, the Janss Investment Company sued to block an African-American family from purchasing a home in Westwood (Janss Investment Company v. Walden)? Every Janss-built home in Westwood had the following restrictive covenant: "No part of said real property shall ever be leased, rented, sold or conveyed to any person who is not of the white or Caucasian race, nor be used or occupied by any person who is not of the white or the Caucasian race whether grantee hereunder or any other person." Food for thought!" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/BxwESoJgAFQ" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAMEAQIF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAHlz1bOdVmiJYQwLP/EABwQAAICAgMAAAAAAAAAAAAAAAECABIDEBETIf/aAAgBAQABBQJAXc4nEtFardjMOZkFQPdf/8QAFREBAQAAAAAAAAAAAAAAAAAAEAH/2gAIAQMBAT8BKf/EABYRAQEBAAAAAAAAAAAAAAAAABABMf/aAAgBAgEBPwEmH//EABsQAAICAwEAAAAAAAAAAAAAAAEQACEREjGR/9oACAEBAAY/AsCE16thOqn/AP/EABoQAQEBAQEBAQAAAAAAAAAAAAEAETEhUWH/2gAIAQEAAT8h4ac31i04hom0MlkB+wDyEJ9p7f/aAAwDAQACAAMAAAAQZyCD/8QAGBEAAgMAAAAAAAAAAAAAAAAAAAEQETH/2gAIAQMBAT8QSLNR/8QAGREAAgMBAAAAAAAAAAAAAAAAAREAEEFh/9oACAECAQE/EGBkXLP/xAAcEAEBAQACAwEAAAAAAAAAAAABEQAhMUFRkdH/2gAIAQEAAT8QeuAugcZaIKrGajfhoGJJyXMlUlAQfPeHg6w2Hoa8238wEwQ9BiL43//Z" alt="Skid Row Marathon" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/9fa30c4c4bf3716348255804736de891/e711a/59740705_434886407314347_2627785705568269944_n.webp 30w,
+/static/9fa30c4c4bf3716348255804736de891/ca41d/59740705_434886407314347_2627785705568269944_n.webp 60w,
+/static/9fa30c4c4bf3716348255804736de891/f0218/59740705_434886407314347_2627785705568269944_n.webp 120w,
+/static/9fa30c4c4bf3716348255804736de891/88812/59740705_434886407314347_2627785705568269944_n.webp 180w,
+/static/9fa30c4c4bf3716348255804736de891/331a6/59740705_434886407314347_2627785705568269944_n.webp 240w,
+/static/9fa30c4c4bf3716348255804736de891/78754/59740705_434886407314347_2627785705568269944_n.webp 1080w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/9fa30c4c4bf3716348255804736de891/a420a/59740705_434886407314347_2627785705568269944_n.jpg 30w,
+/static/9fa30c4c4bf3716348255804736de891/d616a/59740705_434886407314347_2627785705568269944_n.jpg 60w,
+/static/9fa30c4c4bf3716348255804736de891/c16ee/59740705_434886407314347_2627785705568269944_n.jpg 120w,
+/static/9fa30c4c4bf3716348255804736de891/9b191/59740705_434886407314347_2627785705568269944_n.jpg 180w,
+/static/9fa30c4c4bf3716348255804736de891/685db/59740705_434886407314347_2627785705568269944_n.jpg 240w,
+/static/9fa30c4c4bf3716348255804736de891/ea025/59740705_434886407314347_2627785705568269944_n.jpg 1080w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/9fa30c4c4bf3716348255804736de891/a420a/59740705_434886407314347_2627785705568269944_n.jpg 30w,
+/static/9fa30c4c4bf3716348255804736de891/d616a/59740705_434886407314347_2627785705568269944_n.jpg 60w,
+/static/9fa30c4c4bf3716348255804736de891/c16ee/59740705_434886407314347_2627785705568269944_n.jpg 120w,
+/static/9fa30c4c4bf3716348255804736de891/9b191/59740705_434886407314347_2627785705568269944_n.jpg 180w,
+/static/9fa30c4c4bf3716348255804736de891/685db/59740705_434886407314347_2627785705568269944_n.jpg 240w,
+/static/9fa30c4c4bf3716348255804736de891/ea025/59740705_434886407314347_2627785705568269944_n.jpg 1080w" src="/static/9fa30c4c4bf3716348255804736de891/c16ee/59740705_434886407314347_2627785705568269944_n.jpg" alt="Skid Row Marathon" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/B5mKpnvgLUM" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAZABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAGIYtpMsDO3O32ACb//xAAbEAACAgMBAAAAAAAAAAAAAAABAgARAxAhE//aAAgBAQABBQKhVJORELKMRjCmxuAnoI/XG//EABcRAAMBAAAAAAAAAAAAAAAAAAECEBH/2gAIAQMBAT8B0mK0/8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQMf/aAAgBAgEBPwHIVn//xAAaEAACAgMAAAAAAAAAAAAAAAAAARBBESAh/9oACAEBAAY/AulzQ0YhvT//xAAeEAEAAgICAwEAAAAAAAAAAAABABEhMUFREGGR0f/aAAgBAQABPyHvL9EsfwRLY1EKJTjMs7EdTY8S9L3cOx+TCOXwIz//2gAMAwEAAgADAAAAECTP/v/EABYRAQEBAAAAAAAAAAAAAAAAABEBEP/aAAgBAwEBPxALcoGf/8QAFhEBAQEAAAAAAAAAAAAAAAAAEQEQ/9oACAECAQE/EKUZJc//xAAgEAEAAgICAQUAAAAAAAAAAAABABEhMWFxQYGRocHR/9oACAEBAAE/EB2+mK+YgBwgZh4WFwpFnI79oGxW7PqVa4D4RxWb4EQiYeX7GWYLi5udzQ7m0//Z" alt="FREE PICTURES WITH SANTA, FREE HOT COCOA, FREE DOUBLE FEATURE. 
+@westwoodvillage 
+Why spend money on a wonderful Holiday tradition? Westwood’s got your back! ⚠️Event starts 4pm. Movies start at 5:30pm.⚠️ Comment below which movie is your favorite, Rudolph or National Lampoons Christmas Vacation! ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/63826affe3ac23f7250bc5b7b035392d/e711a/76894205_1087923161555944_2177828125402014565_n.webp 30w,
+/static/63826affe3ac23f7250bc5b7b035392d/ca41d/76894205_1087923161555944_2177828125402014565_n.webp 60w,
+/static/63826affe3ac23f7250bc5b7b035392d/f0218/76894205_1087923161555944_2177828125402014565_n.webp 120w,
+/static/63826affe3ac23f7250bc5b7b035392d/88812/76894205_1087923161555944_2177828125402014565_n.webp 180w,
+/static/63826affe3ac23f7250bc5b7b035392d/331a6/76894205_1087923161555944_2177828125402014565_n.webp 240w,
+/static/63826affe3ac23f7250bc5b7b035392d/78754/76894205_1087923161555944_2177828125402014565_n.webp 1080w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/63826affe3ac23f7250bc5b7b035392d/a420a/76894205_1087923161555944_2177828125402014565_n.jpg 30w,
+/static/63826affe3ac23f7250bc5b7b035392d/d616a/76894205_1087923161555944_2177828125402014565_n.jpg 60w,
+/static/63826affe3ac23f7250bc5b7b035392d/c16ee/76894205_1087923161555944_2177828125402014565_n.jpg 120w,
+/static/63826affe3ac23f7250bc5b7b035392d/9b191/76894205_1087923161555944_2177828125402014565_n.jpg 180w,
+/static/63826affe3ac23f7250bc5b7b035392d/685db/76894205_1087923161555944_2177828125402014565_n.jpg 240w,
+/static/63826affe3ac23f7250bc5b7b035392d/ea025/76894205_1087923161555944_2177828125402014565_n.jpg 1080w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/63826affe3ac23f7250bc5b7b035392d/a420a/76894205_1087923161555944_2177828125402014565_n.jpg 30w,
+/static/63826affe3ac23f7250bc5b7b035392d/d616a/76894205_1087923161555944_2177828125402014565_n.jpg 60w,
+/static/63826affe3ac23f7250bc5b7b035392d/c16ee/76894205_1087923161555944_2177828125402014565_n.jpg 120w,
+/static/63826affe3ac23f7250bc5b7b035392d/9b191/76894205_1087923161555944_2177828125402014565_n.jpg 180w,
+/static/63826affe3ac23f7250bc5b7b035392d/685db/76894205_1087923161555944_2177828125402014565_n.jpg 240w,
+/static/63826affe3ac23f7250bc5b7b035392d/ea025/76894205_1087923161555944_2177828125402014565_n.jpg 1080w" src="/static/63826affe3ac23f7250bc5b7b035392d/c16ee/76894205_1087923161555944_2177828125402014565_n.jpg" alt="FREE PICTURES WITH SANTA, FREE HOT COCOA, FREE DOUBLE FEATURE. 
+@westwoodvillage 
+Why spend money on a wonderful Holiday tradition? Westwood’s got your back! ⚠️Event starts 4pm. Movies start at 5:30pm.⚠️ Comment below which movie is your favorite, Rudolph or National Lampoons Christmas Vacation! ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a><a href="https://instagram.com/p/BxeIiPbArj-" class="css-1nlal54"><div class="css-ia6c96 gatsby-image-wrapper" style="position:relative;overflow:hidden"><div style="width:100%;padding-bottom:100%"></div><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAgX/xAAXAQADAQAAAAAAAAAAAAAAAAABAgME/9oADAMBAAIQAxAAAAHmGjEaByI9TDNeIUT/xAAaEAADAQEBAQAAAAAAAAAAAAABAgMABBMx/9oACAEBAAEFAuqCqrTZZ6vQjKaekPmCLmAGNN//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPwEp/8QAIBAAAQIFBQAAAAAAAAAAAAAAAQACEBEhMTISE0FRkf/aAAgBAQAGPwIOZQk8IPNjBobqp2tucoYhWCxb4v/EABwQAAMAAgMBAAAAAAAAAAAAAAABESFBMWGBkf/aAAgBAQABPyFGHgPgvBPcmKPNFIptBxhhi9EdJ6JwR4KLN//aAAwDAQACAAMAAAAQ+9g9/8QAGREBAAIDAAAAAAAAAAAAAAAAAQAhEBEx/9oACAEDAQE/EAXkuarH/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERMSH/2gAIAQIBAT8QbS04VdEf/8QAHxABAAMAAgIDAQAAAAAAAAAAAQARITFxQVGRwdHw/9oACAEBAAE/EMMYItFfzIFeh5BbWj9RjidjGcibDvrzDNqr4NV76vYN5SqB5Xd/sZvWSIp88//Z" alt="Robert McFalls, Producer and Editor
+Victoriya Karpilovich from The People Concern
+Mel Tillekeratne from The Shower of Hope
+Moderated by Michael Skiles, President of North Westwood Neighborhood Council" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms"/><noscript><picture><source type='image/webp' srcset="/static/ab725f769d7114d12eb53925b6401d4d/e711a/59734803_592512651270479_2622335798326590132_n.webp 30w,
+/static/ab725f769d7114d12eb53925b6401d4d/ca41d/59734803_592512651270479_2622335798326590132_n.webp 60w,
+/static/ab725f769d7114d12eb53925b6401d4d/f0218/59734803_592512651270479_2622335798326590132_n.webp 120w,
+/static/ab725f769d7114d12eb53925b6401d4d/88812/59734803_592512651270479_2622335798326590132_n.webp 180w,
+/static/ab725f769d7114d12eb53925b6401d4d/331a6/59734803_592512651270479_2622335798326590132_n.webp 240w,
+/static/ab725f769d7114d12eb53925b6401d4d/78754/59734803_592512651270479_2622335798326590132_n.webp 1080w" sizes="(max-width: 120px) 100vw, 120px" /><source srcset="/static/ab725f769d7114d12eb53925b6401d4d/a420a/59734803_592512651270479_2622335798326590132_n.jpg 30w,
+/static/ab725f769d7114d12eb53925b6401d4d/d616a/59734803_592512651270479_2622335798326590132_n.jpg 60w,
+/static/ab725f769d7114d12eb53925b6401d4d/c16ee/59734803_592512651270479_2622335798326590132_n.jpg 120w,
+/static/ab725f769d7114d12eb53925b6401d4d/9b191/59734803_592512651270479_2622335798326590132_n.jpg 180w,
+/static/ab725f769d7114d12eb53925b6401d4d/685db/59734803_592512651270479_2622335798326590132_n.jpg 240w,
+/static/ab725f769d7114d12eb53925b6401d4d/ea025/59734803_592512651270479_2622335798326590132_n.jpg 1080w" sizes="(max-width: 120px) 100vw, 120px" /><img loading="lazy" sizes="(max-width: 120px) 100vw, 120px" srcset="/static/ab725f769d7114d12eb53925b6401d4d/a420a/59734803_592512651270479_2622335798326590132_n.jpg 30w,
+/static/ab725f769d7114d12eb53925b6401d4d/d616a/59734803_592512651270479_2622335798326590132_n.jpg 60w,
+/static/ab725f769d7114d12eb53925b6401d4d/c16ee/59734803_592512651270479_2622335798326590132_n.jpg 120w,
+/static/ab725f769d7114d12eb53925b6401d4d/9b191/59734803_592512651270479_2622335798326590132_n.jpg 180w,
+/static/ab725f769d7114d12eb53925b6401d4d/685db/59734803_592512651270479_2622335798326590132_n.jpg 240w,
+/static/ab725f769d7114d12eb53925b6401d4d/ea025/59734803_592512651270479_2622335798326590132_n.jpg 1080w" src="/static/ab725f769d7114d12eb53925b6401d4d/c16ee/59734803_592512651270479_2622335798326590132_n.jpg" alt="Robert McFalls, Producer and Editor
+Victoriya Karpilovich from The People Concern
+Mel Tillekeratne from The Shower of Hope
+Moderated by Michael Skiles, President of North Westwood Neighborhood Council" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div></a></div><a href="https://instagram.com/northwestwoodcouncil">See more on Instagram →</a></main></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-0c6237805d3e8725f20a.js"],"component---src-pages-index-js":["/component---src-pages-index-js-320a2a5fc988f541303a.js"],"component---src-pages-minutes-mdx":["/component---src-pages-minutes-mdx-5346419dd83782fba7c3.js"],"component---src-pages-meetings-mdx":["/component---src-pages-meetings-mdx-0ee2e86d3e6458b42b9b.js"],"component---src-pages-upcoming-mdx":["/component---src-pages-upcoming-mdx-182aaa92b5ea1f87b3c1.js"]};/*]]>*/</script><script src="/component---src-pages-index-js-320a2a5fc988f541303a.js" async=""></script><script src="/commons-7951108db548016ef14d.js" async=""></script><script src="/app-0c6237805d3e8725f20a.js" async=""></script><script src="/webpack-runtime-cc06085b83e1effe2ec3.js" async=""></script></body></html>
